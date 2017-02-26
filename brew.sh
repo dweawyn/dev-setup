@@ -102,28 +102,40 @@ brew install homebrew/dupes/screen
 # brew install xz
 
 # Install other useful binaries.
+# Tool like grep, optimized for programmers Designed for programmers with large heterogeneous trees of source code.
 brew install ack
-brew install dark-mode
+# brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install hub
-brew install imagemagick --with-webp
-brew install lua
-brew install lynx
+# brew install imagemagick --with-webp
+# brew install lua
+# brew install lynx
 brew install p7zip
 brew install pigz
 brew install pv
+# Command line tool to rename files according to modification rules specified.
 brew install rename
-brew install rhino
+# Open-source implementation of JavaScript written entirely in Java.
+# brew install rhino
+# Command line interface for testing internet bandwidth using speedtest.net
 brew install speedtest_cli
+# install your public key in a remote machine's authorized_keys.
 brew install ssh-copy-id
+#ree is a recursive directory listing command that produces a depth indented listing of files.
 brew install tree
+# Command line tool that creates screenshots of webpages.
 brew install webkit2png
-brew install zopfli
-brew install pkg-config libffi
+# Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.
+# brew install zopfli
+# Helper tool used when compiling applications and libraries.
+# brew install pkg-config
+# A Portable Foreign Function Interface Library.
+# brew install libffi
+# A universal document converter.
 brew install pandoc
 
 # Lxml and Libxslt
