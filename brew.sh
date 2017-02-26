@@ -157,24 +157,37 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" dropbox
 
 # Development tool casks
-brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vagrant
-brew cask install --appdir="/Applications" macdown
+#brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" dash
+brew cask install --appdir="/Applications" cyberduck
+brew cask install go2shell
+
+# Multimedia
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" mpv
+brew cask install --appdir="/Applications" vox
+brew cask install --appdir="/Applications" spotify
+brew cask install spotifree
+brew cask install --appdir="/Applications" spotify-notifications
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" 1password
-#brew cask install --appdir="/Applications" gimp
-#brew cask install --appdir="/Applications" inkscape
+brew cask install --appdir="/Applications" the-unarchiver
+brew cask install --appdir="/Applications" disk-inventory-x
+brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" flux
+brew cask install --appdir="/Applications" cheatsheet
+brew cask install --appdir="/Applications" namechanger
+brew cask install --appdir="/Applications" spectacle
+brew cask install --appdir="/Applications" wunderlist
+brew cask install --appdir="/Applications" jdownloader
+brew cask install --appdir="/Applications" qbittorrent
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
