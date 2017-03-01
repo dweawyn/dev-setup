@@ -164,14 +164,14 @@ brew cask install --appdir="/Applications" dropbox
 #brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" cyberduck
-brew cask install go2shell
+brew cask install --appdir="/Applications" gitkraken
+brew cask install --appdir="/Applications" go2shell
 
 # Multimedia
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" mpv
 brew cask install --appdir="/Applications" vox
 brew cask install --appdir="/Applications" spotify
-brew cask install spotifree
 brew cask install --appdir="/Applications" spotify-notifications
 
 # Misc casks
