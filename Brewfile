@@ -118,6 +118,8 @@ cask 'namechanger'
 cask 'spectacle'
 cask 'jdownloader'
 cask 'qbittorrent'
+cask 'android-file-transfer'
+
 #
 # # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 # cask 'qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package'
