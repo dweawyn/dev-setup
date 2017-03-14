@@ -1,5 +1,6 @@
 cask_args appdir: '/Applications'
 
+tap 'homebrew/dupes'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 tap 'homebrew/versions'
@@ -15,6 +16,7 @@ brew 'moreutils'
 # Install GNU utilities
 brew 'binutils', args: ['--with-default-names']
 brew 'diffutils', args: ['--with-default-names']
+brew 'homebrew/dupes/diffutils', args: ['--with-default-names']
 brew 'ed',args: ['--with-default-names']
 brew 'file-formula'
 brew 'findutils',args: ['--with-default-names']
@@ -28,8 +30,10 @@ brew 'gnupg'
 brew 'gnupg2'
 brew 'gnutls',args: ['--default-names']
 brew 'grep',args: ['--with-default-names']
+brew 'homebrew/dupes/grep',args: ['--with-default-names']
 brew 'gzip'
 brew 'screen'
+brew 'homebrew/dupes/screen'
 
 brew 'wdiff',args: ['--with-gettext']
 brew 'wget', args: ['--with-iri']
@@ -68,6 +72,7 @@ brew 'ack'
 brew 'htop'
 brew 'less'
 brew 'openssh'
+brew 'homebrew/dupes/openssh'
 # Pipe Viewer is an Open Source tool to monitor the progress of data through a pipeline between any two processes, giving a progress bar, ETA, etc.
 brew 'pv'
 # Command line tool to rename files according to modification rules specified.
