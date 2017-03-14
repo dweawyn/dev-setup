@@ -15,7 +15,6 @@ brew 'coreutils'
 brew 'moreutils'
 # Install GNU utilities
 brew 'binutils', args: ['--with-default-names']
-brew 'diffutils', args: ['--with-default-names']
 brew 'homebrew/dupes/diffutils', args: ['--with-default-names']
 brew 'ed',args: ['--with-default-names']
 brew 'file-formula'
@@ -23,16 +22,13 @@ brew 'findutils',args: ['--with-default-names']
 brew 'gawk'
 brew 'gnu-indent',args: ['--with-default-names']
 brew 'gnu-sed', args: ['--with-default-names']
-brew 'gnu-sed',args: ['--with-default-names']
 brew 'gnu-tar',args: ['--with-default-names']
 brew 'gnu-which',args: ['--with-default-names']
 brew 'gnupg'
 brew 'gnupg2'
 brew 'gnutls',args: ['--default-names']
-brew 'grep',args: ['--with-default-names']
 brew 'homebrew/dupes/grep',args: ['--with-default-names']
 brew 'gzip'
-brew 'screen'
 brew 'homebrew/dupes/screen'
 
 brew 'wdiff',args: ['--with-gettext']
@@ -71,7 +67,6 @@ brew 'nano'
 brew 'ack'
 brew 'htop'
 brew 'less'
-brew 'openssh'
 brew 'homebrew/dupes/openssh'
 # Pipe Viewer is an Open Source tool to monitor the progress of data through a pipeline between any two processes, giving a progress bar, ETA, etc.
 brew 'pv'
@@ -82,6 +77,9 @@ brew 'tmux'
 # Lxml and Libxslt
 brew 'libxml2'
 brew 'libxslt'
+
+#dev tools
+brew 'postgresql'
 
 # Core casks
 cask 'alfred'
@@ -131,9 +129,9 @@ cask 'android-file-transfer'
 
 ## Mac App Store
 brew 'mas'
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Keynote', id: 409183694
+#mas 'Numbers', id: 409203825
+#mas 'Pages', id: 409201541
+#mas 'Keynote', id: 409183694
 mas 'Amphetamine', id: 937984704
 mas 'Wunderlist', id: 410628904
 
