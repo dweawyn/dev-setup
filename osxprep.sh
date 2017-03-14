@@ -17,4 +17,22 @@ sudo softwareupdate -ia --verbose
 echo "------------------------------"
 echo "Installing Xcode Command Line Tools."
 # Install Xcode command line tools
-xcode-select --install
+if      pkgutil --pkg-info com.apple.pkg.CLTools_Executables >/dev/null 2>&1
+then    printf '%s\n' "CHECKING INSTALLATION"
+        count=0
+        pkgutil --files com.apple.pkg.CLTools_Executables |
+        while IFS= read file
+        do
+        test -e  "/${file}"         &&
+        printf '%s\n' "/${file}…OK" ||
+        { printf '%s\n' "/${file}…MISSING"; ((count++)); }
+        done
+        if      (( count > 0 ))
+        then    printf '%s\n' "Command Line Tools are not installed properly"
+                # Provide instructions to remove and the CommandLineTools directory
+                # and the package receipt then install instructions
+        else    printf '%s\n' "Command Line Tools are installed"
+        fi
+else   printf '%s\n' "Command Line Tools are not installed"
+      xcode-select --install
+fi
