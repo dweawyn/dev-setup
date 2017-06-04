@@ -50,20 +50,25 @@ mkvirtualenv py2-data
 workon py2-data
 
 # Install Python data modules
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install pandas
-pip install sympy
-pip install nose
-pip install unittest2
-pip install seaborn
-pip install scikit-learn
 pip install "ipython[all]"
+pip install PyYAML
 pip install bokeh
-pip install Flask
-pip install sqlalchemy
-pip install mysql-python
+pip install boto3
+pip install facebookads
+pip install googleads
+pip install matplotlib
+pip install numpy
+pip install openpyxl
+pip install pandas
+pip install pipreqs
+pip install pylint
+pip install scikit-learn
+pip install scipy
+pip install seaborn
+pip install sympy
+pip install unittest2
+pip install xlrd
+pip install yapf
 
 ###############################################################################
 # Python 3 Virtual Enviroment                                                 #
@@ -88,8 +93,9 @@ pip install seaborn
 pip install scikit-learn
 pip install "ipython[all]"
 pip install bokeh
-pip install Flask
-pip install sqlalchemy
+pip install pylint
+pip install yapf
+pip install boto3
 #pip install mysql-python  # Python 2 only, use mysqlclient instead
 pip install mysqlclient
 
@@ -106,5 +112,5 @@ cp -r init/profile_default/ ~/.ipython/profile_default
 
 echo "------------------------------"
 echo "Script completed."
-echo "Usage: workon py2-data for Python2"
-echo "Usage: workon py3-data for Python3"
+echo "Usage: 'workon py2-data', for Python2"
+echo "Usage: 'workon py3-data', for Python3"
