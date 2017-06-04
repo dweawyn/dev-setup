@@ -8,6 +8,10 @@ tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'caskroom/fonts'
 
+### Core brews
+
+brew 'mackup'
+
 ### Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew',args: ['--prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew 'coreutils'
@@ -78,20 +82,24 @@ brew 'tmux'
 brew 'libxml2'
 brew 'libxslt'
 
-#dev tools
+## data science tools
+#jq is a lightweight and flexible command-line JSON processor.
+brew 'awscli'
+brew 'jq'
 brew 'postgresql'
 
 # Core casks
 cask 'alfred'
+cask 'betterzip'
+cask 'dropbox'
+cask 'google-chrome'
 cask 'iterm2'
 cask 'java'
+cask 'the-unarchiver'
 cask 'xquartz'
-cask 'google-chrome'
-cask 'flux'
-cask 'dropbox'
 
 # Development tool casks
-cask 'atom'
+cask 'visual-studio-code'
 cask 'dash'
 cask 'cyberduck'
 cask 'gitkraken'
@@ -112,7 +120,6 @@ cask 'skype'
 cask 'google-hangouts'
 cask 'slack'
 cask 'evernote'
-cask 'the-unarchiver'
 cask 'disk-inventory-x'
 cask 'appcleaner'
 cask 'flux'
